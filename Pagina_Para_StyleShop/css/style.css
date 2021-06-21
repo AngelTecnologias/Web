@@ -1,0 +1,126 @@
+
+body {
+    background:  url(../assets/fonds/fondo_de_login.jpg)no-repeat center top;
+    margin:0px;
+    font-family: Arial;
+    background-size: 100% 150%;
+   
+    
+  }
+
+.logo1{
+  
+   width: 5cm;
+  height: auto;
+}
+
+ @font-face {
+    font-family: vale;
+    src: url(../assets/fonts/Valentine\ Cute.ttf);
+  }
+h1{
+  text-align: center;
+  position: relative;
+  top: 3px;
+  color: rgb(53, 55, 56);
+ font-family: vale;
+
+}
+
+.contenedor{ 
+
+box-shadow: 5px 6px 6px 3px rgba(0, 0, 0, 0.4);
+
+background-repeat: no-repeat;
+width: 8cm;
+height: 12cm;
+margin: auto;
+margin-top: 2cm;
+
+box-sizing: border-box;
+background: rgba(216, 219, 219, 0.5);
+border-radius: 0.6cm;
+}
+
+
+.div_usuario{
+  text-align: center;
+}
+
+.div_contraseña{
+  text-align: center;
+}
+
+.div_img{
+position: relative;
+top: -20px;
+text-align: center;
+}
+.div_iniciarsesion{
+  text-align: center;
+  
+}
+.div_check{
+  padding-left: 0.4cm;
+  color: rgb(59, 88, 95);
+  position: relative;
+  top: -13px;
+}
+
+.inpusuario{
+  
+position: relative;
+top: -50px;
+border-radius: 0.1cm;
+height: 1cm;
+width: 6cm;
+background-image: url('../assets/icons/icono_input_user.PNG');
+background-repeat: no-repeat;
+background-position: 4px ;
+background-size: 35px;
+padding-left: 40px;
+border: 0cm;
+
+
+}
+
+.inpcontraseña{
+  position: relative;
+  top: -30px;
+  border-radius: 0.1cm;
+  height: 1cm;
+  width: 6cm;
+  background-image: url('../assets/icons/icono_input_password.PNG');
+  background-repeat: no-repeat;
+  background-position: 4px ;
+  background-size: 35px;
+  padding-left: 40px;
+  border: 0cm;
+
+}
+::placeholder{
+  font-size: .5cm;
+}
+
+.check{
+ position: relative;
+ text-align: right;
+ width:12px;
+ height:12px;
+}
+
+
+.inp_iniciarsesion{
+  position: relative;
+  top: 10px;
+  border-radius: 0.2cm;
+  height: 38px;
+  width: 230px;
+  font-size: 17px;
+  border: 0cm;
+  background: rgba(46,140,166,255);
+  
+  color: rgb(255, 255, 255);
+
+}
+
